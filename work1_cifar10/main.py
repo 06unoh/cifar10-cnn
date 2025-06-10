@@ -8,7 +8,7 @@ import torchvision.transforms as transforms
 
 from models.custom_cnn import CustomCNN
 from utils.train import train
-from work1_cifar10.utils.evaluate import evaluate
+from utils.evaluate import evaluate
 from utils.test import test
 from utils.visualize import visualize
 
