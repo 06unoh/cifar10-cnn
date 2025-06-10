@@ -2,7 +2,7 @@
 
 📌 This is a simple CNN model to classify CIFAR-10 images using PyTorch.
 
-## 프로젝트 구조
+## - 프로젝트 구조
 
 ```
 models/
@@ -17,7 +17,7 @@ requirements.txt
 Dockerfile
 ```
 
-## 실행법 (for Local PC)
+## - 실행법 (for Local PC)
 
 ### 1️⃣ Requirements 설치
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 도커 실행법 (for Docker User)
+## - 도커 실행법 (for Docker User)
 
 ### 1️⃣ 도커 이미지 빌드
 
@@ -47,14 +47,14 @@ docker run --rm cifar10-cnn
 
 ---
 
-## 데이터 셋
+## - 데이터셋
 
 The CIFAR-10 dataset will be automatically downloaded by torchvision when running the script.  
 No manual download is required.
 
 ---
 
-## 결과
+## - 결과
 
 Example accuracy after training for 10 epochs:
 
