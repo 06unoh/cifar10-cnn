@@ -65,13 +65,9 @@ Validation Accuracy: 80.52%
 Test Accuracy: 79.81%
 ```
 
-*예측 결과*
+예측 결과 예시:
 
 ![샘플 예측 결과](images/prediction.png)
-```
-![샘플 예측 결과](images/prediction.png)
-...
-```
 
 ---
 Author: 06unoh
