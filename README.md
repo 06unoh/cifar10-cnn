@@ -1,6 +1,6 @@
 # CNN모델을 활용한 CIFAR-10
 
-📌 This is a simple CNN model to classify CIFAR-10 images using PyTorch.
+
 
 ## - 프로젝트 구조
 
