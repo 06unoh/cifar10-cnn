@@ -17,29 +17,29 @@ requirements.txt
 Dockerfile
 ```
 
-## How to Run
+## 실행법 (for Local PC)
 
-### 1️⃣ Install requirements
+### 1️⃣ Requirements 설치
 
 ```
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run the main script
+### 2️⃣ 실행
 
 ```
 python main.py
 ```
 
-## Docker Usage
+## 도커 실행법 (for Docker User)
 
-### 1️⃣ Build the docker image
+### 1️⃣ 도커 이미지 빌드
 
 ```
 docker build -t cifar10-cnn .
 ```
 
-### 2️⃣ Run the container
+### 2️⃣ 컨테이너 실행
 
 ```
 docker run --rm cifar10-cnn
@@ -47,14 +47,14 @@ docker run --rm cifar10-cnn
 
 ---
 
-## Dataset
+## 데이터 셋
 
 The CIFAR-10 dataset will be automatically downloaded by torchvision when running the script.  
 No manual download is required.
 
 ---
 
-## Results
+## 결과
 
 Example accuracy after training for 10 epochs:
 
