@@ -1,7 +1,7 @@
 # CNN모델을 활용한 CIFAR-10
 
 📌 This is a simple CNN model to classify CIFAR-10 images using PyTorch.
----
+
 ## - 프로젝트 구조
 
 ```
@@ -49,8 +49,10 @@ docker run --rm cifar10-cnn
 
 ## - 데이터셋
 
-The CIFAR-10 dataset will be automatically downloaded by torchvision when running the script.  
-No manual download is required.
+본 프로젝트는 CIFAR-10 데이터셋을 사용합니다.  
+CIFAR-10은 10개의 클래스(비행기, 자동차, 새, 고양이 등)에 대한 60,000장의 32x32 컬러 이미지로 구성된 공개 이미지 데이터셋입니다.
+
+데이터는 별도로 다운로드할 필요 없이, 스크립트 실행 시 `torchvision` 라이브러리를 통해 자동으로 다운로드됩니다.
 
 ---
 
