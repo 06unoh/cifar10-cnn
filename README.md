@@ -58,19 +58,18 @@ CIFAR-10은 10개의 클래스(비행기, 자동차, 새, 고양이 등)에 대�
 
 ## - 결과
 
-Example accuracy after training for 10 epochs:
+40 에포크 학습 후, 정확도:
 
 ```
-Train Accuracy: ~85%  
-Validation Accuracy: ~83%
+Validation Accuracy: 80.52% 
+Test Accuracy: 79.81%
 ```
 
-*Example visualization of predictions:*
+*예측 결과*
 
+![샘플 예측 결과](images/prediction.png)
 ```
-[Class: Cat] → Predicted: Cat  
-[Class: Plane] → Predicted: Plane  
-[Class: Dog] → Predicted: Dog  
+![샘플 예측 결과](images/prediction.png)
 ...
 ```
 
