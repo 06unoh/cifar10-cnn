@@ -70,6 +70,7 @@ Validation Accuracy: ~83%
 [Class: Plane] → Predicted: Plane  
 [Class: Dog] → Predicted: Dog  
 ...
+```
 
 ---
 Author: 06unoh
