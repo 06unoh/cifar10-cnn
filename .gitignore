@@ -1,9 +1,0 @@
-# 모든 파일 기본적으로 무시
-*
-
-# .gitignore 파일 자체는 포함
-!.gitignore
-
-# cifar-10 폴더 포함
-!work1_cifar10/
-!work1_cifar10/**
