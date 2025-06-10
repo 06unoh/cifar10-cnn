@@ -1,8 +1,8 @@
-# CIFAR-10 CNN Classifier
+# CNN모델을 활용한 CIFAR-10
 
 📌 This is a simple CNN model to classify CIFAR-10 images using PyTorch.
 
-## Project Structure
+## 프로젝트 구조
 
 ```
 models/
@@ -47,4 +47,29 @@ docker run --rm cifar10-cnn
 
 ---
 
+## Dataset
+
+The CIFAR-10 dataset will be automatically downloaded by torchvision when running the script.  
+No manual download is required.
+
+---
+
+## Results
+
+Example accuracy after training for 10 epochs:
+
+```
+Train Accuracy: ~85%  
+Validation Accuracy: ~83%
+```
+
+*Example visualization of predictions:*
+
+```
+[Class: Cat] → Predicted: Cat  
+[Class: Plane] → Predicted: Plane  
+[Class: Dog] → Predicted: Dog  
+...
+
+---
 Author: 06unoh

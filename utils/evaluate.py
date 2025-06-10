@@ -1,4 +1,5 @@
 # evaluate.py
+import torch
 
 def evaluate(model, valloader, criterion, device):
     model.eval()

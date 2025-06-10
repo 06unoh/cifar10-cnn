@@ -1,4 +1,6 @@
 # test.py
+import torch
+
 def test(model, testloader, device):
     model.eval()   
     total=0

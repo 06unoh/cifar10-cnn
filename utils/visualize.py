@@ -1,6 +1,7 @@
 # visualize.py
 import matplotlib.pyplot as plt
 import numpy as np
+import torch
 
 def visualize_prediction(model, testloader):
     mean = torch.tensor([0.4914, 0.4822, 0.4465]).numpy()
