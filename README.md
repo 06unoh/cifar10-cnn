@@ -2,7 +2,7 @@
 
 
 
-## - 프로젝트 구조
+## 🔹 프로젝트 구조
 
 ```
 models/
@@ -17,7 +17,7 @@ requirements.txt
 Dockerfile
 ```
 ---
-## - 실행법 (for Local PC)
+## 🔹 실행법 (for Local PC)
 
 ### 1️⃣ Requirements 설치
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 python main.py
 ```
 ---
-## - 도커 실행법 (for Docker User)
+## 🔹 도커 실행법 (for Docker User)
 
 ### 1️⃣ 도커 이미지 빌드
 
@@ -47,7 +47,7 @@ docker run --rm cifar10-cnn
 
 ---
 
-## - 데이터셋
+## 🔹 데이터셋
 
 CIFAR-10 
 CIFAR-10은 10개의 클래스(비행기, 자동차, 새, 고양이 등)에 대한 60,000장의 32x32 사이즈의 이미지로 구성된 데이터셋입니다.
@@ -56,7 +56,7 @@ CIFAR-10은 10개의 클래스(비행기, 자동차, 새, 고양이 등)에 대�
 
 ---
 
-## - 결과
+## 🔹 결과
 
 40회 에포크 학습 후, 정확도:
 
