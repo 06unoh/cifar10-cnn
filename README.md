@@ -70,4 +70,4 @@ Test Accuracy: 79.81%
 ![샘플 예측 결과](images/prediction.png)
 
 ---
-Author: 06unoh
+06unoh
