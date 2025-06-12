@@ -19,13 +19,13 @@ Dockerfile
 ---
 ## 🔹 실행법 (for Local PC)
 
-### 1️⃣ Requirements 설치
+### ☝️ Requirements 설치
 
 ```
 pip install -r requirements.txt
 ```
 
-### 2️⃣ 실행
+### ✌️ 실행
 
 ```
 python main.py
@@ -33,13 +33,13 @@ python main.py
 ---
 ## 🔹 도커 실행법 (for Docker User)
 
-### 1️⃣ 도커 이미지 빌드
+### ☝️ 도커 이미지 빌드
 
 ```
 docker build -t cifar10-cnn .
 ```
 
-### 2️⃣ 컨테이너 실행
+### ✌️ 컨테이너 실행
 
 ```
 docker run --rm cifar10-cnn
