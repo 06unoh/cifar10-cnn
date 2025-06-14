@@ -6,13 +6,13 @@ WORKDIR /app
 
 
 # 최신 pip 사용
-RUN pip install --upgrade pip
+RUN pip install --no-cache-dir --upgrade pip
 
 # 정확한 버전으로 패키지 설치
-RUN pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 \
+RUN pip install --no-cache-dir torch==2.6.0+cu124 torchvision==0.21.0+cu124 \
     -f https://download.pytorch.org/whl/torch_stable.html
 
-RUN pip install matplotlib==3.10.0 numpy==2.0.2
+RUN pip install --no-cache-dir matplotlib==3.10.0 numpy==2.0.2
 
 # 현재 프로젝트 복사
 COPY . .
